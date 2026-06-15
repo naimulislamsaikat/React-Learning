@@ -3,12 +3,10 @@ import './App.css';
 import Greet from './components/Greet';
 
 function App() {
-  const data = getData();
-
   return (
-  <div className="App">
-    <Greet />
-  </div>
+    <div className="App">
+      <Greet />
+    </div>
   );
 }
 
